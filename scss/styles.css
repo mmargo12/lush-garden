@@ -1,0 +1,1611 @@
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  top: 30px;
+  padding: 0;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.logo {
+  display: block;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.logo__img {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  padding-left: 470px;
+  margin: 0;
+}
+.nav__li {
+  list-style: none;
+  margin: 0;
+}
+.nav__link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+}
+.nav__link::after {
+  display: block;
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: white;
+  transition: width 0.4s initial;
+}
+.nav__link:hover {
+  font-weight: 700;
+}
+.nav__link:hover::after {
+  width: 100%;
+}
+.nav__bttn {
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 11px 50px;
+  margin-left: 17px;
+}
+.nav__bttn:hover {
+  background-color: white;
+  color: #285A43;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.hero {
+  margin: 0;
+  padding: 240px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/hero.png");
+  background-position: center;
+  background-size: cover;
+}
+.hero__title {
+  margin: 0;
+  padding: 0;
+  line-height: 77px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero__text {
+  width: 787px;
+  margin: 15px auto;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #F8F8F8;
+}
+.hero__bttns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hero__bttn {
+  border: 1px solid #285A43;
+  border-radius: 5px;
+  padding: 12px 50px;
+  background-color: #285A43;
+}
+.hero__bttn:hover {
+  background-color: white;
+  color: #285A43;
+  border-color: white;
+}
+.hero__videobttn {
+  display: flex;
+  align-items: center;
+  border-color: white;
+  padding: 10px 35px;
+  background-color: transparent;
+  margin-left: 13px;
+}
+.hero__videobttn:hover {
+  background-color: #285A43;
+  color: white;
+  border-color: #285A43;
+}
+.hero__numbers {
+  position: absolute;
+  right: 100px;
+  top: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  opacity: 0.7;
+}
+.hero__number {
+  padding: 16px 0;
+}
+.hero__number::after {
+  display: block;
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: #285A43;
+  transition: width 0.4s initial;
+}
+.hero__number:hover {
+  color: #285A43;
+  opacity: 1;
+}
+.hero__number:hover::after {
+  width: 100%;
+}
+
+.play__bttn {
+  margin-right: 10px;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 120px;
+}
+.first__uppertext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.first__title {
+  text-transform: capitalize;
+  font-weight: 900;
+  line-height: 140%;
+  text-align: left;
+  width: 476px;
+}
+.first__text {
+  font-size: 18px;
+  line-height: 150%;
+  opacity: 0.8;
+  width: 648px;
+  text-align: left;
+}
+.first__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first__card {
+  display: inline-block;
+  text-align: left;
+  width: 290px;
+  height: 340px;
+  gap: 80px;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+.first__card:hover {
+  background-color: #337A5B;
+}
+.first__card:hover p, .first__card:hover h5 {
+  color: white;
+}
+.first__card:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.card__img {
+  width: 126px;
+  height: 126px;
+}
+.card__title {
+  margin: 10px 0 20px 0;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.card__text {
+  line-height: 150%;
+  opacity: 0.8;
+}
+
+.white__img {
+  filter: brightness(0.04) sepia(1) saturate(10000%) hue-rotate(120deg);
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 120px 0;
+}
+.second__title {
+  font-weight: 900;
+  line-height: 140%;
+  margin-bottom: 35px;
+}
+.second__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+.second__card {
+  width: 279px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.twocard__img {
+  width: 280px;
+  height: 250px;
+}
+.twocard__title {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #285A43;
+  margin-bottom: 5px;
+}
+.twocard__oldprice {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  text-transform: capitalize;
+  opacity: 0.5;
+}
+.twocard__price {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #285A43;
+}
+.twocard__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.twocard__prices {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+.twocard__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 23px;
+  align-items: center;
+}
+.twocard__bttn {
+  display: flex;
+  color: #285A43;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 140%;
+  background-color: transparent;
+  border: 1px solid #337A5B;
+  height: 20px;
+  padding: 8px 24px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+.twocard__bttn:hover {
+  background-color: #337A5B;
+  color: white;
+}
+
+.second__card::after {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  content: "";
+  background-image: url("../images/empty heart.png");
+}
+.second__card::after:hover {
+  background-image: url("../images/filled heart.png");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 120px;
+}
+.third__right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.third__card {
+  width: 260px;
+  height: 279px;
+  padding: 50px 50px;
+}
+.third__card:nth-child(2) {
+  background-color: #F8F8F8;
+}
+.third__card:nth-child(3) {
+  background-color: #F8F8F8;
+}
+
+.cntnt {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.threecard__img {
+  margin-bottom: 10px;
+}
+.threecard__title {
+  margin-bottom: 12px;
+}
+.threecard__text {
+  opacity: 0.8;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.fourth__title {
+  display: block;
+  font-weight: 900;
+  margin-bottom: 35px;
+  text-transform: capitalize;
+}
+.fourth__gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.second__column, .third__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cntnt__four {
+  max-width: 100%;
+  text-align: center;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.fifth {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 120px 0;
+}
+.fifth__title {
+  font-weight: 900;
+  margin-bottom: 35px;
+  text-transform: capitalize;
+}
+.fifth__cards {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: space-between;
+}
+.fifth__card {
+  width: 272px;
+  height: 249px;
+  padding: 40px 44px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.fifth__card:nth-child(1) {
+  background-image: url("../images/bg1.png");
+}
+.fifth__card:nth-child(2) {
+  background-image: url("../images/bg2.png");
+}
+.fifth__card:nth-child(3) {
+  background-image: url("../images/bg3.png");
+}
+.fifth__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile__img {
+  margin-right: 20px;
+}
+.profile__text {
+  text-align: left;
+  line-height: 150%;
+  opacity: 0.8;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.sixth {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-image: url("../images/bg-email.png");
+  background-position: center;
+  background-size: cover;
+}
+.sixth__title {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  text-transform: capitalize;
+  width: 570px;
+}
+.sixth__input {
+  width: 421px;
+  height: 20px;
+  padding: 12px 25px;
+  margin: 0;
+  border-radius: 5px;
+  border: 1px solid white;
+  background: transparent;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: white;
+  opacity: 0.8;
+}
+.sixth__bttn {
+  padding: 12px 45px;
+  margin-left: 25px;
+  background-color: #285A43;
+  border-radius: 5px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.sixth__bttn:hover {
+  color: #285A43;
+  background-color: white;
+}
+
+.cntnt__six {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  padding: 128px 100px;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.seventh {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 120px 0;
+}
+.seventh__title {
+  margin-bottom: 35px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.seventh__cards {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.seventh__card {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 518px;
+}
+
+.sevencard__img {
+  width: 360px;
+  height: 335px;
+  margin-bottom: 20px;
+}
+.sevencard__title {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: left;
+  min-height: 55px;
+}
+.sevencard__text {
+  text-align: left;
+  font-size: 16px;
+  line-height: 150%;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  min-height: 72px;
+}
+.sevencard__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sevencard__calendar {
+  margin-right: 8px;
+}
+.sevencard__date {
+  line-height: 24px;
+  opacity: 0.8;
+}
+.sevencard__link {
+  position: relative;
+  text-align: right;
+  font-weight: 900;
+  color: #285A43;
+  margin-left: 99px;
+}
+.sevencard__link::after {
+  position: absolute;
+  top: 5px;
+  right: -20px;
+  width: 16px;
+  height: 12px;
+  content: "";
+  background-image: url("../images/arrow.png");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: Lato;
+  src: url("../fonts/Lato-SemiBold.ttf");
+}
+@font-face {
+  font-weight: 900;
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 36px;
+  color: #285A43;
+  text-transform: capitalize;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285A43;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  color: #121212;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.bttn {
+  font-family: Lato;
+}
+
+.content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #285A43;
+}
+.footer__title {
+  margin-top: 75px;
+  margin-bottom: 35px;
+  color: white;
+  font-size: 32px;
+}
+.footer__socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 72px;
+  margin-bottom: 35px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  opacity: 0.8;
+  margin-bottom: 64px;
+}
+.footer__copyright {
+  width: 100%;
+  background-color: #121212;
+  text-align: center;
+}
+.footer__text {
+  margin: 7px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: white;
+  opacity: 0.8;
+}/*# sourceMappingURL=styles.css.map */

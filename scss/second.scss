@@ -1,0 +1,114 @@
+@import "variables.scss";
+@import "general.scss";
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 120px 0;
+
+
+    &__title {
+        font-weight: 900;
+        line-height: 140%;
+        margin-bottom: 35px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 27px;
+    }
+
+    &__card {
+        width: 279px;
+        border-radius: 10px;
+        position: relative;
+    }
+}
+
+.twocard {
+    &__img {
+        width: 280px;
+        height: 250px;
+    }
+    &__title {
+        font-family: 'Lato';
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: $green;
+        margin-bottom: 5px;
+    }
+    &__oldprice {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        text-decoration-line: line-through;
+        text-transform: capitalize;
+        opacity: 0.5;
+    }
+    &__price {
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: $green;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__prices {
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+    }
+    &__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 23px;
+        align-items: center;
+    }
+    &__bttn {
+        display: flex;
+        color: $green;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 140%;
+        background-color: transparent;
+        border: 1px solid $light-green;
+        height: 20px;
+        padding: 8px 24px;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+
+        &:hover {
+            background-color: $light-green;
+            color: $white;
+        }
+    }
+
+}
+
+.second__card::after {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    content: "";
+    background-image: url("../images/empty\ heart.png");
+
+    &:hover {
+        background-image: url("../images/filled\ heart.png");
+    }
+}

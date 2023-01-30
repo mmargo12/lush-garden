@@ -1,0 +1,33 @@
+@import "variables.scss";
+@import "general.scss";
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+    &__title {
+        display: block;
+        font-weight: 900;
+        margin-bottom: 35px;
+        text-transform: capitalize;
+    }
+
+    &__gallery {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-between;
+    }
+}
+
+.second__column, .third__column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cntnt__four {
+    max-width: 100%;
+    text-align: center;
+}

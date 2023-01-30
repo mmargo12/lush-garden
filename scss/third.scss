@@ -1,0 +1,49 @@
+@import "variables.scss";
+@import "general.scss";
+
+.third {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 120px;
+
+    &__right {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        width: 260px;
+        height: 279px;
+        padding: 50px 50px;
+
+        &:nth-child(2) {
+            background-color: $light-gray;
+        }
+        &:nth-child(3) {
+            background-color: $light-gray;
+        }
+    }
+}
+
+.cntnt {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.threecard {
+    &__img {
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        opacity: 0.8;
+    }
+}

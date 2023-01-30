@@ -1,0 +1,63 @@
+@import "variables.scss";
+@import "general.scss";
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 120px 0;
+
+    &__title {
+        font-weight: 900;
+        margin-bottom: 35px;
+        text-transform: capitalize;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        justify-content: space-between;
+    }
+
+    &__card {
+        width: 272px;
+        height: 249px;
+        padding: 40px 44px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+
+        &:nth-child(1) {
+            background-image: url("../images/bg1.png");
+        }
+        &:nth-child(2) {
+            background-image: url("../images/bg2.png");
+        }
+        &:nth-child(3) {
+            background-image: url("../images/bg3.png");
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 30px;
+
+        
+    }
+
+}
+
+.profile {
+    &__img {
+        margin-right: 20px;
+    }
+
+    &__text {
+        text-align: left;
+        line-height: 150%;
+        opacity: 0.8;
+    }
+}

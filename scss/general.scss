@@ -1,0 +1,97 @@
+@import "variables.scss";
+
+@font-face {
+    font-weight: 500;
+    font-family: Lato;
+    src: url("../fonts/Lato-Medium.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Lato;
+    src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: Lato;
+    src: url("../fonts/Lato-SemiBold.ttf");
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: Lato;
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: Raleway;
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 64px;
+    color: $white;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 36px;
+    color: $green;
+    text-transform: capitalize;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 20px;
+    color: $green;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    font-weight: 500;
+    color: $gray;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    font-weight: 500;
+    color: $white;
+    text-decoration: none;
+}
+
+.bttn {
+    font-family: Lato;
+}
+
+.content {
+    max-width: 1200px;
+    text-align: center;
+}
+

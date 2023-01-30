@@ -1,0 +1,85 @@
+@import "variables.scss";
+@import "general.scss";
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 120px;
+
+    &__uppertext {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    &__title {
+        text-transform: capitalize;
+        font-weight: 900;
+        line-height: 140%;
+        text-align: left;
+        width: 476px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 150%;
+        opacity: 0.8;
+        width: 648px;
+        text-align: left;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__card {
+        
+        display: inline-block;
+        text-align: left;
+        width: 290px;
+        height: 340px;
+        gap: 80px;
+        border-radius: 10px;
+        padding: 20px 30px;
+
+        &:hover {
+            background-color: $light-green;
+            
+            p, h5 {
+                color: $white;
+            }
+
+            img {
+                filter: brightness(0) invert(1); ;
+            }
+        }
+    }
+}
+
+.card {
+    &__img {
+        width: 126px;
+        height: 126px;
+    }
+    &__title {
+        margin: 10px 0 20px 0;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 140%;
+        text-transform: capitalize;
+    }
+
+    &__text {
+        line-height: 150%;
+        opacity: 0.8;
+    }
+}
+
+.white__img {
+    filter: brightness(0.04) sepia(1) saturate(10000%) hue-rotate(120deg);
+}
